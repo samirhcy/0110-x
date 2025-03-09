@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>0110.tr</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- 
+					<header id="header">
+						<h1><a href="index.html">0110-the-realm</a></h1>
+					</header>-->
+
+				<!--
+					<section id="menu">
+
+						
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+					
+							<section>
+								<ul class="links">
+									<li>
+										<a href="#">
+											<h3>Lorem ipsum</h3>
+											<p>Feugiat tempus veroeros dolor</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Dolor sit amet</h3>
+											<p>Sed vitae justo condimentum</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Feugiat veroeros</h3>
+											<p>Phasellus sed ultricies mi congue</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Etiam sed consequat</h3>
+											<p>Porta lectus amet ultricies</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						
+							<section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit">Log In</a></li>
+								</ul>
+							</section>
+
+					</section>-->
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+						
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">Game-Site Locked</a></h2>
+									</div>
+									
+								</header>
+								<section>
+
+									<h3>Enter Password</h3>
+
+									<form id="myForm">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall">
+												<input type="text" name="code" id="code" value="" placeholder="Password" />
+											</div>
+
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" value="submit" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</section>
+
+
+								<!--<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+								<p>Nunc quis dui scelerisque, scelerisque urna ut, dapibus orci. Sed vitae condimentum lectus, ut imperdiet quam. Maecenas in justo ut nulla aliquam sodales vel at ligula. Sed blandit diam odio, sed fringilla lectus molestie sit amet. Praesent eu tortor viverra lorem mattis pulvinar feugiat in turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ullamcorper tellus sit amet mattis dignissim. Phasellus ut metus ligula. Curabitur nec leo turpis. Ut gravida purus quis erat pretium, sed pellentesque massa elementum. Fusce vestibulum porta augue, at mattis justo. Integer sed sapien fringilla, dapibus risus id, faucibus ante. Pellentesque mattis nunc sit amet tortor pellentesque, non placerat neque viverra. </p>
+								<footer>
+									<ul class="stats">
+										<li><a href="#">General</a></li>
+										<li><a href="#" class="icon solid fa-heart">28</a></li>
+										<li><a href="#" class="icon solid fa-comment">128</a></li>
+									</ul>
+								</footer>
+							</article>-->
+
+					</div>
+
+				<!-- Footer -->
+							<section id="footer">
+
+								<ul class="icons">
+
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
+									<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+								<p class="copyright">&copy; 0110 | Creative Institute. Design: Samirhc. Credit: Team 0110</p>
+							</section>
+
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+		  <script>
+	document.getElementById("myForm").addEventListener("submit", validateForm);
+  
+	function validateForm(event) {
+	  event.preventDefault(); // Prevent form submission
+  
+	  // Get the entered code
+	  var enteredCode = document.getElementById("code").value;
+  
+	  // Compare the entered code with the stored code
+	  var storedCode = "tr404"; // Replace with your actual stored code
+  
+	  if (enteredCode === storedCode) {
+		// Code is valid, redirect to the desired page
+		window.location.href = "https://0110institute.github.io/0110-the-game/"; // Replace with your actual page URL
+	  } else {
+		// Code is invalid, display an error message
+		alert("Invalid Password. Please try again.");
+	  }
+	}
+  </script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
